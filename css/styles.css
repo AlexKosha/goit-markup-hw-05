@@ -538,6 +538,12 @@ a {
   fill: var(--social-icon);
 }
 
+.footer-input {
+  background-color: inherit;
+  border: 1px solid var(--text-white-color);
+  border-radius: 4px;
+}
+
 /*---------------------backdrop-----------------  */
 
 .is-hidden {
