@@ -728,7 +728,7 @@ input {
   width: 360px;
   height: 120px;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
@@ -780,6 +780,7 @@ input {
   align-items: center;
   fill: transparent;
   margin-right: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .form-checkbox-svg {
