@@ -786,6 +786,7 @@ input {
 .form-checkbox-svg {
   display: inline-block;
   border-radius: 2px;
+  opacity: 0;
 }
 
 .form-link {
@@ -794,6 +795,10 @@ input {
   letter-spacing: 0.04em;
   text-decoration: underline;
   color: var(--social-link);
+}
+
+.form-checkbox:checked + .checkbox-label > .checkbox-span .form-checkbox-svg {
+  opacity: 1;
 }
 
 .form-checkbox:checked + .checkbox-label > .checkbox-span {
