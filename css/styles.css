@@ -783,11 +783,10 @@ input {
   margin-right: 8px;
 }
 
-.form-checkbox-svg {
+/* .form-checkbox-svg {
   display: inline-block;
   border-radius: 2px;
-  fill: #ffffff;
-}
+} */
 
 .form-link {
   font-size: 12px;
