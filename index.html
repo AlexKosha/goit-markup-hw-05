@@ -406,10 +406,10 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="footer-form-box">
           <p class="footer-container-text">Subscribe</p>
           <form class="footer-form">
-            <label
+            <label class="footer-form-label"
               ><input
                 type="email"
                 placeholder="E-mail"
@@ -439,12 +439,12 @@
         </p>
         <form class="backdrop-form" name="order-form">
           <div class="container-form">
-            <label class="form-label" for="user_name">Name</label>
+            <label class="form-label" for="user-name">Name</label>
             <div class="container-input">
               <input
                 type="text"
-                name="user_name"
-                id="user_name"
+                name="user-name"
+                id="user-name"
                 class="form-input"
               />
               <svg class="form-svg" width="18" height="24">
@@ -471,10 +471,10 @@
             </div>
           </div>
           <div class="textarea-box">
-            <label class="form-label" for="comment">Comment</label>
+            <label class="form-label" for="user-comment">Comment</label>
             <textarea
-              name="comment"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
               cols="30"
               rows="10"
               class="form-textarea"
@@ -484,10 +484,11 @@
           <div class="checkbox-box">
             <input
               type="checkbox"
-              class="form-checkbox form-checkbox-hidden"
-              id="privacy"
+              class="form-checkbox visually-hidden"
+              id="user-privacy"
+              value="true"
             />
-            <label for="privacy" class="checkbox-label"
+            <label for="user-privacy" class="checkbox-label"
               ><span class="checkbox-span"
                 ><svg class="form-checkbox-svg" width="10" height="8">
                   <use></use></svg></span
