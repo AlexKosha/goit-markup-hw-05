@@ -728,7 +728,7 @@ input {
   width: 360px;
   height: 120px;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.2);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
@@ -800,10 +800,11 @@ input {
   color: var(--social-link);
 }
 
-.form-checkbox:checked + .checkbox-label > .checkbox-span  {
-  background-color: #404BBF;
+.form-checkbox:checked + .checkbox-label > .checkbox-span {
+  background-color: #404bbf;
   border: none;
-  fill: #FFFFFF;
+  fill: #ffffff;
+}
 
 .form-btn {
   display: block;
