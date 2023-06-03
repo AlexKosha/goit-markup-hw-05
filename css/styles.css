@@ -758,7 +758,7 @@ input {
 .form-checkbox {
 }
 
-.form-checkbox-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -799,6 +799,11 @@ input {
   text-decoration: underline;
   color: var(--social-link);
 }
+
+.form-checkbox:checked + .checkbox-label > .checkbox-span  {
+  background-color: #404BBF;
+  border: none;
+  fill: #FFFFFF;
 
 .form-btn {
   display: block;
