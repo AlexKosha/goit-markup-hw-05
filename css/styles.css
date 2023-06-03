@@ -755,9 +755,6 @@ input {
   color: var(--border-customers);
 }
 
-.form-checkbox {
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
