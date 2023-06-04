@@ -693,7 +693,7 @@ input {
   display: block;
   width: 360px;
   height: 40px;
-  text-indent: 38px;
+  padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   border-radius: 4px;
